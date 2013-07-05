@@ -1,9 +1,11 @@
 VisualStudioFileOpenTool
 ========================
 
-Tool that trying open specified file at spicified line in active Visual Studio
+Tool that trying open specified file at spicified line in active Visual Studio   
 
-Inspired by http://stackoverflow.com/questions/350323/open-a-file-in-visual-studio-at-a-specific-line-number
+
+[Download binary](https://github.com/diimdeep/VisualStudioFileOpenTool/blob/master/VisualStudioFileOpenTool/bin/Release/VisualStudioFileOpenTool.exe)
+
 
 	usage: <version> <file path> <line number> 
 
@@ -19,3 +21,6 @@ Inspired by http://stackoverflow.com/questions/350323/open-a-file-in-visual-stud
 GrepWin settings example:
 
 	VisualStudioFileOpenTool.exe 12 %path% %line%
+	
+	
+Inspired by http://stackoverflow.com/questions/350323/open-a-file-in-visual-studio-at-a-specific-line-number
