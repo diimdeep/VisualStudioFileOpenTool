@@ -18,9 +18,12 @@ Tool that trying open specified file at spicified line in active Visual Studio
 	VisualStudio 2012                    12 
 
 
-GrepWin settings example:
+GrepWin settings:
 
 	VisualStudioFileOpenTool.exe 12 %path% %line%
 	
+Beyond Compare settings(Options - Open With - Command line):
+	
+	VisualStudioFileOpenTool.exe 12 %f %l
 	
 Inspired by http://stackoverflow.com/questions/350323/open-a-file-in-visual-studio-at-a-specific-line-number
