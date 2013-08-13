@@ -27,3 +27,7 @@ Beyond Compare settings(Options - Open With - Command line):
 	VisualStudioFileOpenTool.exe 12 %f %l
 	
 Inspired by http://stackoverflow.com/questions/350323/open-a-file-in-visual-studio-at-a-specific-line-number
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/diimdeep/VisualStudioFileOpenTool/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
