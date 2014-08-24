@@ -45,7 +45,7 @@ namespace VisualStudioFileOpenTool
 
 		public static string GetHelpMessage()
 		{
-			var versions = new List<int>() { 2, 3, 5, 8, 10, 12 };
+			var versions = new List<int>() { 2, 3, 5, 8, 10, 12, 13 };
 			string s = "Trying to open specified file at spicified line in active Visual Studio \n\n";
 
 			s += "usage: <version> <file path> <line number> \n\n";
@@ -67,6 +67,8 @@ namespace VisualStudioFileOpenTool
 			//  Source: http://www.mztools.com/articles/2011/MZ2011011.aspx
 			switch (visualStudioVersionNumber)
 			{
+				case 13:
+					return "VisualStudio.DTE.12.0";
 				case 12:
 					return "VisualStudio.DTE.11.0";
 				case 10:
