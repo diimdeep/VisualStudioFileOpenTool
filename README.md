@@ -16,6 +16,7 @@ Tool that trying open specified file at spicified line in active Visual Studio
 	VisualStudio 2008                     8 
 	VisualStudio 2010                    10 
 	VisualStudio 2012                    12 
+	VisualStudio 2013                    13 
 
 
 GrepWin settings:
